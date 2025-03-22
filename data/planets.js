@@ -1,33 +1,34 @@
 //Main
-import earthOverview from "../assets/planet-earth.svg";
-import mercuryOverview from "../assets/planet-mercury.svg";
-import venusOverview from "../assets/planet-venus.svg";
-import marsOverview from "../assets/planet-mars.svg";
-import jupiterOverview from "../assets/planet-jupiter.svg";
-import saturnOverview from "../assets/planet-saturn.svg";
-import neptuneOverview from "../assets/planet-neptune.svg";
-import uranusOverview from "../assets/planet-uranus.svg";
+import earthOverview from "@/public/assets/planet-earth.svg";
+import mercuryOverview from "@/public/assets/planet-mercury.svg";
+import venusOverview from "@/public/assets/planet-venus.svg";
+import marsOverview from "@/public/assets/planet-mars.svg";
+import jupiterOverview from "@/public/assets/planet-jupiter.svg";
+import saturnOverview from "@/public/assets/planet-saturn.svg";
+import neptuneOverview from "@/public/assets/planet-neptune.svg";
+import uranusOverview from "@/public/assets/planet-uranus.svg";
 //Internal
-import earthInternal from "../assets/planet-earth-internal.svg";
-import mercuryInternal from "../assets/planet-mercury-internal.svg";
-import venusInternal from "../assets/planet-venus-internal.svg";
-import marsInternal from "../assets/planet-mars-internal.svg";
-import jupiterInternal from "../assets/planet-jupiter-internal.svg";
-import saturnInternal from "../assets/planet-saturn-internal.svg";
-import neptuneInternal from "../assets/planet-neptune-internal.svg";
-import uranusInternal from "../assets/planet-uranus-internal.svg";
+import earthInternal from "@/public/assets/planet-earth-internal.svg";
+import mercuryInternal from "@/public/assets/planet-mercury-internal.svg";
+import venusInternal from "@/public/assets/planet-venus-internal.svg";
+import marsInternal from "@/public/assets/planet-mars-internal.svg";
+import jupiterInternal from "@/public/assets/planet-jupiter-internal.svg";
+import saturnInternal from "@/public/assets/planet-saturn-internal.svg";
+import neptuneInternal from "@/public/assets/planet-neptune-internal.svg";
+import uranusInternal from "@/public/assets/planet-uranus-internal.svg";
 //Geology
-import earthGeology from "../assets/geology-earth.png";
-import mercuryGeology from "../assets/geology-mercury.png";
-import venusGeology from "../assets/geology-venus.png";
-import marsGeology from "../assets/geology-mars.png";
-import jupiterGeology from "../assets/geology-jupiter.png";
-import saturnGeology from "../assets/geology-saturn.png";
-import neptuneGeology from "../assets/geology-neptune.png";
-import uranusGeology from "../assets/geology-uranus.png";
+import earthGeology from "@/public/assets/geology-earth.png";
+import mercuryGeology from "@/public/assets/geology-mercury.png";
+import venusGeology from "@/public/assets/geology-venus.png";
+import marsGeology from "@/public/assets/geology-mars.png";
+import jupiterGeology from "@/public/assets/geology-jupiter.png";
+import saturnGeology from "@/public/assets/geology-saturn.png";
+import neptuneGeology from "@/public/assets/geology-neptune.png";
+import uranusGeology from "@/public/assets/geology-uranus.png";
 
 export const PlanetData = [
   {
+    id: "1",
     name: "Mercury",
     overview: {
       content:
@@ -56,6 +57,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "2",
     name: "Venus",
     overview: {
       content:
@@ -83,6 +85,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "3",
     name: "Earth",
     overview: {
       content:
@@ -110,6 +113,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "4",
     name: "Mars",
     overview: {
       content:
@@ -137,6 +141,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "5",
     name: "Jupiter",
     overview: {
       content:
@@ -165,6 +170,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "6",
     name: "Saturn",
     overview: {
       content:
@@ -192,6 +198,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "7",
     name: "Uranus",
     overview: {
       content:
@@ -219,6 +226,7 @@ export const PlanetData = [
     },
   },
   {
+    id: "8",
     name: "Neptune",
     overview: {
       content:
